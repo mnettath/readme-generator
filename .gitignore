@@ -1,0 +1,4 @@
+# Ignores node_modules directory so that Git repo remains forcused on the project's source code 
+# Developers can install npm at their own convenience
+
+node_modules
