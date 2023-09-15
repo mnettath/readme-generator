@@ -83,7 +83,10 @@ function init(data) {
 ${data.description}
 
 ## Table of Contents 
-${data.tableOfContents}
+- [Installation](#installation) 
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [License](#license)
 
 ## Installation
 ${data.installation}
