@@ -48,8 +48,13 @@ inquirer
     },
     {
       type: "input",
-      message: "Enter an questions",
-      name: "questions",
+      message: "Enter your GitHub username",
+      name: "username",
+    },
+    {
+      type: "input",
+      message: "Enter your email",
+      name: "email",
     },
   ])
   // return the data when we get a user input
@@ -96,6 +101,9 @@ ${data.contributors}
 ${data.tests}
 
 ## Questions 
-${data.questions}
+Contact me with questions: 
+GitHub username: ${data.username}
+GitHub profile: https://github.com/${data.username}
+Email: ${data.email}
 `;
 }

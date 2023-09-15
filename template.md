@@ -1,20 +1,20 @@
 
-#maya's readme
+#maya's project
 
 ## Description
-created a command line app that generates a readme 
+none
 
 ## Table of Contents 
-n/a
+none
 
 ## Installation
-n/a
+none
 
 ## Usage
-n/a
+none
 
 ## License
-n/a
+none
 
 ## Contributors
 none
@@ -23,4 +23,7 @@ none
 none
 
 ## Questions 
-none
+Contact me with questions: 
+GitHub username: mnettath
+GitHub profile: https://github.com/mnettath
+Email: nettathm@gmail.com
