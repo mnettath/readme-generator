@@ -1,1 +1,26 @@
-{"title":"maya","description":"help students create readme","table of contents":"none","installation":"none","usage":"usage to create project readmes","license":"none","contributors":"none","tests":"none","questions":"none"}
+
+#maya's readme
+
+## Description
+created a command line app that generates a readme 
+
+## Table of Contents 
+n/a
+
+## Installation
+n/a
+
+## Usage
+n/a
+
+## License
+n/a
+
+## Contributors
+none
+
+## Tests 
+none
+
+## Questions 
+none

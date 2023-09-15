@@ -1,6 +1,5 @@
 // TODO: Include packages needed for this application - DONE
 
-// TODO: Create an array of questions for user input
 const inquirer = require("inquirer");
 const fs = require("fs");
 
@@ -20,7 +19,7 @@ inquirer
     {
       type: "input",
       message: "Enter the table of contents of your project",
-      name: "table of contents",
+      name: "tableOfContents",
     },
     {
       type: "input",
@@ -53,12 +52,12 @@ inquirer
       name: "questions",
     },
   ])
-  // return the data when we get a success
+  // return the data when we get a user input
   .then((data) => {
     console.log(data);
 
-    // format data into a string
-    const readme = JSON.stringify(data);
+    // calls the init function and passes the data we collected to it
+    const readme = init(data);
 
     // TODO: Create a function to write README file
     fs.writeFile("template.md", readme, (error) => {
@@ -71,7 +70,32 @@ inquirer
   });
 
 // TODO: Create a function to initialize app
-function init() {}
+function init(data) {
+  return `
+#${data.title}
 
-// Function call to initialize app
-init();
+## Description
+${data.description}
+
+## Table of Contents 
+${data.tableOfContents}
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## License
+${data.license}
+
+## Contributors
+${data.contributors}
+
+## Tests 
+${data.tests}
+
+## Questions 
+${data.questions}
+`;
+}
