@@ -18,17 +18,12 @@ inquirer
     },
     {
       type: "input",
-      message: "Enter the table of contents of your project",
-      name: "tableOfContents",
-    },
-    {
-      type: "input",
       message: "Enter the instructions for installation",
       name: "installation",
     },
     {
       type: "input",
-      message: "Enter the usage",
+      message: "Enter the usage information",
       name: "usage",
     },
     {
