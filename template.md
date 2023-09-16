@@ -1,8 +1,8 @@
 
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-
-#mayas homework
+#maya
 
 ## Description
 none
@@ -20,17 +20,17 @@ none
 none
 
 ## License
-undefined
-undefined
+This project uses the Apache License 2.0
+License link:
 
 ## Contributors
-none
+
 
 ## Tests 
-none
+
 
 ## Questions 
 Contact me with questions: 
-GitHub username: none
-GitHub profile: https://github.com/none
-Email: none
+GitHub username: 
+GitHub profile: https://github.com/
+Email: 

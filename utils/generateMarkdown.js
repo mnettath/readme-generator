@@ -14,12 +14,31 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === "MIT License") {
+    return "License link: ";
+  } else if (license === "GNU General Public License (GPL)") {
+    return "License link:";
+  } else if (license === "Apache License 2.0") {
+    return "License link:";
+  } else {
+    return "";
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
+function renderLicenseSection(license) {
+  if (license === "MIT License") {
+    return "This project uses the MIT License.";
+  } else if (license === "GNU General Public License (GPL).") {
+    return "This project uses the GNU General Public License (GPL).";
+  } else if (license === "Apache License 2.0") {
+    return "This project uses the Apache License 2.0";
+  } else {
+    return "";
+  }
+}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   // calling these functions within the generateMarkdown function
@@ -49,8 +68,8 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${licenseLink}
 ${licenseSection}
+${licenseLink}
 
 ## Contributors
 ${data.contributors}
