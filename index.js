@@ -2,6 +2,7 @@
 
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 inquirer
   // list of questions
@@ -33,6 +34,7 @@ inquirer
         "MIT License",
         "GNU General Public License (GPL)",
         "Apache License 2.0",
+        "I do not wish to select a license",
       ],
       name: "license",
     },
@@ -62,7 +64,7 @@ inquirer
     console.log(data);
 
     // calls the init function and passes the data we collected to it
-    const readme = init(data);
+    const readme = generateMarkdown(data);
 
     // TODO: Create a function to write README file
     fs.writeFile("template.md", readme, (error) => {
@@ -73,40 +75,3 @@ inquirer
       }
     });
   });
-
-// TODO: Create a function to initialize app
-function init(data) {
-  return `
-#${data.title}
-
-## Description
-${data.description}
-
-## Table of Contents 
-- [Installation](#installation) 
-- [Usage](#usage)
-- [Contributors](#contributors)
-- [License](#license)
-
-## Installation
-${data.installation}
-
-## Usage
-${data.usage}
-
-## License
-${data.license}
-
-## Contributors
-${data.contributors}
-
-## Tests 
-${data.tests}
-
-## Questions 
-Contact me with questions: 
-GitHub username: ${data.username}
-GitHub profile: https://github.com/${data.username}
-Email: ${data.email}
-`;
-}

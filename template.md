@@ -1,5 +1,8 @@
 
-#maya
+
+
+
+#mayas homework
 
 ## Description
 none
@@ -17,16 +20,17 @@ none
 none
 
 ## License
-Apache License 2.0
+undefined
+undefined
 
 ## Contributors
-
+none
 
 ## Tests 
-
+none
 
 ## Questions 
 Contact me with questions: 
-GitHub username: 
-GitHub profile: https://github.com/
-Email: 
+GitHub username: none
+GitHub profile: https://github.com/none
+Email: none
