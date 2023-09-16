@@ -27,8 +27,13 @@ inquirer
       name: "usage",
     },
     {
-      type: "input",
-      message: "Enter the license information",
+      type: "list", // list makes the user select only one option unlike checkbox
+      message: "Select which license you would like",
+      choices: [
+        "MIT License",
+        "GNU General Public License (GPL)",
+        "Apache License 2.0",
+      ],
       name: "license",
     },
     {

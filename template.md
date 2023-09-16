@@ -17,16 +17,16 @@ none
 none
 
 ## License
-none
+Apache License 2.0
 
 ## Contributors
-none
+
 
 ## Tests 
-none
+
 
 ## Questions 
-###Contact me with questions: 
-GitHub username: mnettath
-GitHub profile: https://github.com/mnettath
-Email: nettathm@gmail.com
+Contact me with questions: 
+GitHub username: 
+GitHub profile: https://github.com/
+Email: 
