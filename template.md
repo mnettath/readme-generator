@@ -1,11 +1,11 @@
 
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-#maya
+#maya's hw
 
 ## Description
-none
+
 
 ## Table of Contents 
 - [Installation](#installation) 
@@ -14,14 +14,14 @@ none
 - [License](#license)
 
 ## Installation
-none
+
 
 ## Usage
-none
+
 
 ## License
-This project uses the Apache License 2.0
-License link:
+This project uses the MIT License.
+Click [here](./utils/MIT.txt) to view this license
 
 ## Contributors
 

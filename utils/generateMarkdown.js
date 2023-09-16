@@ -16,11 +16,11 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "MIT License") {
-    return "License link: ";
+    return "Click [here](./utils/MIT.txt) to view this license!";
   } else if (license === "GNU General Public License (GPL)") {
-    return "License link:";
+    return "Click [here](./utils/GPL.txt) to view this license!";
   } else if (license === "Apache License 2.0") {
-    return "License link:";
+    return "Click [here](./utils/Apache.txt) to view this license!";
   } else {
     return "";
   }
@@ -34,7 +34,7 @@ function renderLicenseSection(license) {
   } else if (license === "GNU General Public License (GPL).") {
     return "This project uses the GNU General Public License (GPL).";
   } else if (license === "Apache License 2.0") {
-    return "This project uses the Apache License 2.0";
+    return "This project uses the Apache License 2.0.";
   } else {
     return "";
   }
