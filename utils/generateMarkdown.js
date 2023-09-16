@@ -31,7 +31,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license === "MIT License") {
     return "This project uses the MIT License.";
-  } else if (license === "GNU General Public License (GPL).") {
+  } else if (license === "GNU General Public License (GPL)") {
     return "This project uses the GNU General Public License (GPL).";
   } else if (license === "Apache License 2.0") {
     return "This project uses the Apache License 2.0.";
