@@ -19,12 +19,14 @@ inquirer
     },
     {
       type: "input",
-      message: "Enter the instructions for installation",
+      message:
+        "Enter the instructions for installation. If you do not wish to include installation instructions, type N/A.",
       name: "installation",
     },
     {
       type: "input",
-      message: "Enter the usage information",
+      message:
+        "Enter the usage information. If you do not wish to include usage information, type N/A.",
       name: "usage",
     },
     {
@@ -40,12 +42,13 @@ inquirer
     },
     {
       type: "input",
-      message: "Enter any contributors",
-      name: "contributors",
+      message: "Enter how other developers can make contributions",
+      name: "contributing",
     },
     {
       type: "input",
-      message: "Enter any tests",
+      message:
+        "Enter any tests. If you do not wish to include tests, type N/A.",
       name: "tests",
     },
     {
@@ -71,7 +74,9 @@ inquirer
       if (error) {
         console.log(error);
       } else {
-        console.log("Success");
+        console.log(
+          "Your README.md is complete. Thank you for using this readme-generator!"
+        );
       }
     });
   });

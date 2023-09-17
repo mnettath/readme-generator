@@ -1,36 +1,42 @@
-
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-#maya's homework
+#Maya's homework
 
 ## Description
-create a readme generator using node
 
-## Table of Contents 
-- [Installation](#installation) 
+Create a professional README that helps save time for developers
+
+## Table of Contents
+
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributors)
 - [License](#license)
 
 ## Installation
-none
+
+N/A
 
 ## Usage
-none
+
+N/A
 
 ## License
+
 This project uses the MIT License.
 Click [here](./utils/MIT.txt) to view this license!
 
-## Contributors
-none
+## Contributing
 
-## Tests 
-none
+N/A
 
-## Questions 
-Contact me with questions: 
+## Tests
+
+N/A
+
+## Questions
+
+Contact me with questions:
 GitHub username: mnettath
 GitHub profile: https://github.com/mnettath
 Email: nettathm@gmail.com

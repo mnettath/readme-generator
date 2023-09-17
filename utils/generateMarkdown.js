@@ -68,11 +68,10 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${licenseSection}
-${licenseLink}
+${licenseSection} ${licenseLink}
 
 ## Contributors
-${data.contributors}
+${data.contributing}
 
 ## Tests 
 ${data.tests}
