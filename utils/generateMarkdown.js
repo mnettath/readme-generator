@@ -77,7 +77,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions 
-Contact me with questions: 
+### Contact me with questions: 
 GitHub username: ${data.username}
 GitHub profile: https://github.com/${data.username}
 Email: ${data.email}

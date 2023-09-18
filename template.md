@@ -1,42 +1,35 @@
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-#Maya's homework
+#maya's hw
 
 ## Description
+none
 
-Create a professional README that helps save time for developers
-
-## Table of Contents
-
-- [Installation](#installation)
+## Table of Contents 
+- [Installation](#installation) 
 - [Usage](#usage)
 - [Contributors](#contributors)
 - [License](#license)
 
 ## Installation
-
-N/A
+none
 
 ## Usage
-
-N/A
+none
 
 ## License
+This project uses the MIT License. Click [here](./utils/MIT.txt) to view this license!
 
-This project uses the MIT License.
-Click [here](./utils/MIT.txt) to view this license!
+## Contributors
 
-## Contributing
 
-N/A
+## Tests 
 
-## Tests
 
-N/A
-
-## Questions
-
-Contact me with questions:
-GitHub username: mnettath
-GitHub profile: https://github.com/mnettath
-Email: nettathm@gmail.com
+## Questions 
+### Contact me with questions: 
+GitHub username: 
+GitHub profile: https://github.com/
+Email: 

@@ -6,7 +6,7 @@ My goal working on this readme-generator was to help developers easily create a 
 
 ## Installation
 
-In order to use the readme-generator, please install node.js. Node.js can be installed using this link: https://nodejs.org/en/download. It's important to download the LTS option for the computer's operating system. Next, the user will need to install the inquirier package by inputing "npm i inquirer@8.2.4" in the command line. After completing these steps, the user will be ready to use the readme-generator.
+In order to use the readme-generator, please install node.js. Node.js can be installed using this link: https://nodejs.org/en/download. It's important to download the LTS option for the computer's operating system. Next, the user will need to install the inquirer package by inputting "npm i inquirer@8.2.4" in the command line. After completing these steps, the user will be ready to use the readme-generator.
 
 ## Usage
 
