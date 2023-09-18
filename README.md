@@ -10,9 +10,7 @@ In order to use the readme-generator, please install node.js. Node.js can be ins
 
 ## Usage
 
-Please see the following usage demonstration:
-
-![readme-generator demo](https://drive.google.com/file/d/1GQ6a-GVTL2AwHBLzolhhrcee2aRtl-NY/view)
+Please see the following usage demonstration: https://drive.google.com/file/d/1FWkwP3uGPaHRBATV7KQlfgGw2QbtMKij/view
 
 ## Credits
 
